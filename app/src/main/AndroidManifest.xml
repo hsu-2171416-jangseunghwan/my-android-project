@@ -1,0 +1,45 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fitmate">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="FitMate"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FitMate">
+
+        <!-- IntroActivity를 첫 화면으로 설정 -->
+        <activity
+            android:name=".IntroActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- 사용자 정보 입력 페이지 -->
+        <activity android:name=".MainActivity" />
+
+        <!-- BMI 결과 페이지 -->
+        <activity android:name=".BmiResultActivity" />
+
+        <activity android:name=".CardioActivity" />
+
+        <activity android:name=".CardioDetailActivity" />
+
+        <activity android:name=".StrengthActivity" />
+
+        <activity android:name=".UpperBodyActivity" />
+
+        <activity android:name=".LowerBodyActivity" />
+
+        <activity android:name=".FinishActivity" />
+
+        <activity android:name=".SelectExerciseActivity" />
+
+        <activity android:name=".SummaryActivity" />
+    </application>
+
+</manifest>

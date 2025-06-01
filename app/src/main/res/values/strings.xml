@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FitMate</string>
+    <string name="input_title">FitMate - 사용자 정보 입력</string>
+    <string name="enter_height">키 (cm)</string>
+    <string name="enter_weight">몸무게 (kg)</string>
+    <string name="gender">성별</string>
+    <string name="male">남성</string>
+    <string name="female">여성</string>
+    <string name="age_prompt">나이대를 선택하세요</string>
+    <string name="bmi_next">BMI 계산하고 다음으로</string>
+</resources>
